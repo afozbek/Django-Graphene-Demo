@@ -26,10 +26,9 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
-    "django_graphql_movies.movies",
-    
+    "movies_",
 ]
-GRAPHENE = {  
+GRAPHENE = {
     'SCHEMA': 'django_graphql_movies.schema.schema'
 }
 MIDDLEWARE = [
